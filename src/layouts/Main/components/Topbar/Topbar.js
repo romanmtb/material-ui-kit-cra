@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link as RouterLink } from 'react-router-dom';
+// import { Link as RouterLink } from 'react-router-dom';
 import clsx from 'clsx';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/styles';
@@ -33,12 +33,12 @@ const Topbar = props => {
       className={clsx(classes.root, className)}
     >
       <Toolbar>
-        <RouterLink to="/">
-          <img
-            alt="Logo"
-            src="/images/logos/logo--white.svg"
-          />
-        </RouterLink>
+        {/*<RouterLink to="/">*/}
+        {/*  <img*/}
+        {/*    alt="Logo"*/}
+        {/*    src="/images/logos/logo--white.svg"*/}
+        {/*  />*/}
+        {/*</RouterLink>*/}
         <div className={classes.flexGrow} />
         <Hidden mdDown>
           <IconButton color="inherit">
